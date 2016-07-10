@@ -1,0 +1,157 @@
+@import 'settings';
+@import 'foundation-emails';
+.logo {
+  background-color: #404E60;
+  background-image: url('http://whitershade.tk/passion/passion-bg.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  .logo-button {
+    text-transform: uppercase;
+    display: inline-block;
+    color: #FFF;
+    padding: 15px 40px;
+    background-color: #F5A65B;
+    font-weight: 600;
+  }
+}
+
+.logo-text {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  color: #FFF;
+  font-size: 34px;
+  text-transform: uppercase;
+}
+
+.section-title {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  color: #414D60 + 35;
+  font-size: 20px;
+}
+
+.features-border {
+  margin-top: -15px;
+  border-bottom: 2px solid #E9E9E9;
+  &.left {
+    border-right: 1px solid #E9E9E9;
+  }
+  &.right {
+    border-left: 1px solid #E9E9E9;
+  }
+}
+
+.image-wrapper {
+  text-align: center;
+  img {
+    display: inline-block;
+  }
+}
+
+.features-title {
+  text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  color: #414D60 + 35;
+  font-size: 18px;
+  text-align: center;
+}
+
+.features-text {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  font-size: 14px;
+  color: #7188A8;
+}
+
+.bg-grey {
+  background: #F5F5F5;
+}
+
+.qoute-text {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: #667386;
+  text-transform: uppercase;
+}
+
+.qoute-qoute {
+  padding-bottom: 10px;
+  padding-right: 10px;
+  display: inline-block;
+}
+
+.decorative-line {
+  font-size: 16px;
+  display: inline-block;
+  border-top: 1px solid #D5D3D3;
+}
+
+.quote-author {
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  color: #7188A8;
+}
+
+//.section-decorative-line {
+//  border-bottom: 2px solid #E9E9E9;
+//  
+//}
+
+hr {
+  margin-top: -10px;
+  color: #E9E9E9;
+}
+
+.blog-title {
+  a {
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #495D79;
+  }
+}
+
+.blog-text {
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  color: #7188A8;
+}
+
+.bg-dark-blue {
+  background-color: #424E61;
+}
+
+.dark-blue-section-text {
+  text-transform: uppercase;
+  color: #FFF;
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  text-align: center;
+  span {
+    font-weight: bold;
+  }
+}
+
+.button-wrapper-center {
+  text-align: center;
+  a {
+    font-family: 'Raleway', sans-serif;
+    background: #FFF;
+    text-transform: uppercase;
+    color: #3D495A;
+    padding: 15px 40px;
+    font-weight: 600;
+  }
+}
+
+.copyright {
+  font-family: 'Raleway', sans-serif;
+  color: #414D60;
+  font-size: 12px;
+}
